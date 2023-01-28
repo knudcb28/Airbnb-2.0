@@ -7,7 +7,7 @@ const nextConfig = {
     ]
   },
   env: {
-    
+    NEXT_PUBLIC_MAPBOX_ACCESS_ID: process.env.NEXT_PUBLIC_MAPBOX_ACCESS_ID
   },
   reactStrictMode: true,
 }
