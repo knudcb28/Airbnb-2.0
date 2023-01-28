@@ -39,14 +39,6 @@ function MapBox({ searchResults }) {
       onChange={(viewport) => setViewport(viewport)}
       onWheel={(viewport) => setViewport(viewport)}
     >
-      
-      {searchResults.map((result) => {
-        return (
-        <div key={result.long}>
-          
-        </div>
-        )
-      })}
     </Map>
   );
 }
