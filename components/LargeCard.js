@@ -8,9 +8,8 @@ const LargeCard = ({ img, title, description, buttonText }) => {
         <Image
           alt="photo"
           src={img}
-          layout="fill"
-          objectFit="cover"
-          className="rounded-2xl "
+          fill
+          className="rounded-2xl object-cover"
         />
       </div>
 

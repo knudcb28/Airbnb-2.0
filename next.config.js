@@ -6,6 +6,9 @@ const nextConfig = {
       'jsonkeeper.com',
     ]
   },
+  env: {
+    
+  },
   reactStrictMode: true,
 }
 
