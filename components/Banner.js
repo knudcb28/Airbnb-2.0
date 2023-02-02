@@ -15,7 +15,7 @@ const Banner = () => {
       />
       <div className="absolute top-1/2 w-full text-center">
         <h1 className="text-2xl font-bold">Not sure where to go? Perfect.</h1>
-        <Link href="https://earthroulette.com/random/North%20America">
+        <Link href="">
           <button className="text-purple-500 bg-white px-10 py-4 shadow-md rounded-full font-bold my-5 hover:shadow-xl active:scale-90 transition duration-150">
             I'm flexible
           </button>
